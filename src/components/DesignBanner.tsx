@@ -53,7 +53,7 @@ const DesignBanner: React.FC = () => {
           <img
             src={bannerImage}
             alt="Woman with TUMI suitcase - Dual Access, Maximum Efficiency"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
         </div>
       </div>
