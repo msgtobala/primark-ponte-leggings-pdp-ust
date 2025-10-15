@@ -54,7 +54,7 @@ const DesignInnovation: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-start gap-4 sm:gap-6 md:gap-8 w-full">
           {/* Left Side - Hero Image */}
           <div className="w-full lg:flex-1 lg:flex-[1.2] xl:flex-[1.3]">
-            <div className="relative w-full h-[250px] xs:h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[808px] max-w-[944px] mx-auto lg:mx-0">
+            <div className="relative w-full h-[250px] xs:h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] 2xl:h-[808px] max-w-[850px] mx-auto lg:mx-0">
               <img
                 src={familyImage}
                 alt="TUMI Design Innovation"
@@ -73,7 +73,7 @@ const DesignInnovation: React.FC = () => {
           </div>
 
           {/* Right Side - Product Grid */}
-          <div className="w-full lg:flex-1 lg:max-w-[600px]">
+          <div className="w-full lg:flex-1 lg:max-w-[700px]">
             {/* Mobile: Single column stack */}
             <div className="grid grid-cols-1 sm:hidden gap-4">
               {products.map((product) => (
